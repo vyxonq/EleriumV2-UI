@@ -3,6 +3,9 @@
 ]]
 
 -- Create the main window
+
+local EleriumV2_UI = loadstring(game:HttpGet("https://github.com/vyxonq/EleriumV2-UI/releases/download/0.0.1/source.luau"))()
+
 local window = EleriumV2_UI:AddWindow("Elerium V2", {
     main_color = Color3.fromRGB(128, 0, 128),
     min_size = Vector2.new(500, 400),
