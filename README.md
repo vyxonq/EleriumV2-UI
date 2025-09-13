@@ -2,7 +2,7 @@
 
 ## Example Usage
 
-[▶ View Full Example](./example.lua)
+[▶ View Full Example](src/example.lua)
 
 ```lua
 local window = EleriumV2_UI:AddWindow("Elerium V2", {
